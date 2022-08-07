@@ -1,13 +1,156 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  background-color: #23252C;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+justify-content: center;
+
+
+}
+
+.img--profile {
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+section {
+  background-color: #1A1B21;
+  width: 317px;
+  text-align: center;
+}
+
+.text--fullName {
+  margin: 0;
+  margin-top: 1rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.text--position {
+  
+  font-weight: 400;
+  font-size: 12.8px;
+  margin: 0;
+  padding: 0;
+  color: #F3BF99;
+}
+
+.text--website {
+  
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #F5F5F5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.individualButton1 {
+  height: 34px;
+  width: 115px;
+  background-color: white;
+  display: flex;
+  border: none;
+  border-radius: .2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 9.6px;
+}
+
+.logo--email {
+  width: 13px;
+  height: 10px;
+}
+
+.buttons--email {
+  width: 36px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  color: black;
+}
+
+.individualButton2 {
+  height: 34px;
+  width: 115px;
+  background-color: #5093E2;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  border-radius: .2rem;
+}
+
+.logo--linkedIn {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+}
+
+.buttons--linkedIn {
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 34px;
+  padding-top: 2rem;
+  text-align: left;
+  color: #F5F5F5;
+  font-size: 1rem;
+}
+
+p {
+  padding-top: .6rem;
+  margin: 0 34px;
+  text-align: left;
+  color: #F5F5F5;
+  font-size: 11px;
+  line-height: 1rem;
+}
+
+.socialsIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.footer {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+  height: 64px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.interests {
+  padding-bottom: 2.5rem;
 }
